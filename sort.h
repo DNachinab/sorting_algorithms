@@ -51,4 +51,11 @@ void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 
+/* merge_sort.c */
+void merge_sbarr(int *subarr, int *buff, size_t front, size_t mid, size_t back);
+void merge_sort_recur(int *subarr, int *buff, size_t front, size_t back);
+
+/* heap_sort.c */
+void max_heap(int *array, size_t size, size_t base, size_t root);
+
 #endif /* SORT_H */
